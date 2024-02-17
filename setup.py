@@ -21,6 +21,6 @@ setup(
     author='Bhiki',
     author_email='vicky.pallai900@gmail.com',
     packages=find_packages(),
-    install_requires=['pandas','numpy','seaborn',],
-    install_requires=get_requirements('requirements.txt'),
+    # install_requires=['pandas','numpy','seaborn','scikit-learn'],
+    install_requires=get_requirements('requirements.txt')
 )
